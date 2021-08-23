@@ -1,11 +1,11 @@
 const Discord = require('discord.js');
 const client = new Discord.Client({disableEveryone: true});
-const prefix = "!";
-const token = "NzI5NzQ0NjI1NzY1NTgwODQy.XwNZqg.BgLLJyAC8_EbN7br5zVAjgnSRt0";
+const prefix = "$$";
+const token = "ODQxMDAxODkxNTcxMzAyNDQw.YJgaDA.mvrxCHO2rne_k06ETCr_nvWMLqE";
 
 client.on('ready', () => {
 	console.log(`Login as: ${client.user.username}`)
-	client.user.setActivity('From https://github.com/nykz1337', {type: "PLAYING"})
+	client.user.setActivity('! xma#0001 OP $$', {type: "WATCHING"})
 })
 
 client.on('message', message => {
@@ -25,7 +25,7 @@ client.on('message', message => {
 			.setTitle("Succes!")
 			.setColor("GREEN")
 			.setTimestamp()
-			.setFooter('Created by: https://github.com/nykz1337')
+			.setFooter('Xma OP')
 			.setThumbnail(message.author.avatarURL)
 			.setDescription(`Successfully send ${msg} to ${all} members!`)
 			message.channel.send(embed)
