@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client({disableEveryone: true});
 const prefix = "$$";
-const token = "ODQxMDAxODkxNTcxMzAyNDQw.YJgaDA.mvrxCHO2rne_k06ETCr_nvWMLqE";
+const token = "ODQxMDAxODkxNTcxMzAyNDQw.YJgaDA.i0oh0HLNLpgnd8V-N1kirW2K2sw";
 
 client.on('ready', () => {
 	console.log(`Login as: ${client.user.username}`)
@@ -22,7 +22,7 @@ client.on('message', message => {
 			});
 			let all = message.guild.members.filter(m => m.presence.status === 'online').size
 			embed = new Discord.RichEmbed()
-			.setTitle("Succes!")
+			.setTiODQxMDAxODkxNTcxMzAyNDQw.YJgaDA.i0oh0HLNLpgnd8V-N1kirW2K2swtle("Succes!")
 			.setColor("GREEN")
 			.setTimestamp()
 			.setFooter('Xma OP')
